@@ -54,3 +54,10 @@
   "author": "It's not you it's me",
   "license": "ISC"
 }
+{
+  "scripts": {
+    "prebuild": "cd gpt-crawler/containerapp",
+    "build": "webpack --optimize-minimize",
+    "watch": "webpack --progress --color --watch"
+  },
+}
